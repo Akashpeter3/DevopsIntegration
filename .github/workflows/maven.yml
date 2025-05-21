@@ -52,6 +52,3 @@ jobs:
           SPRING_DATASOURCE_USERNAME: root
           SPRING_DATASOURCE_PASSWORD: root
 
-      # Optional: Upload dependency graph
-      - name: Upload dependency graph
-        uses: advanced-security/maven-dependency-submission-action@v3
